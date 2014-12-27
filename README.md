@@ -12,4 +12,3 @@ The following Contao extensions is required to run this extension:
 Requirements
 =======================
 + Contao 3.2 or higher
-+ 
