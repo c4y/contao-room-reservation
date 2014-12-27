@@ -23,6 +23,7 @@ Features
 + Edit occupancy each day or specify a time span
 + Reservation process with overview display showing room types and prices
 + Configure the confimation mail 
++ Use insert tags to customize the confirmation text
 + Specify subject, HTML or plain text and attachments for the confirmation
 + Optionally send email via SMTP and set sender and/or sender address
 
