@@ -26,5 +26,8 @@ Features
 + Specify subject, HTML or plain text and attachments for the confirmation
 + Optionally send email via SMTP and set sender and/or sender address
 
+Installation
+-----------------------
+
 Documentation
 -----------------------
