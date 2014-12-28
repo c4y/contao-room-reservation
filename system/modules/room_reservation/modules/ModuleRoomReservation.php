@@ -114,7 +114,7 @@ class ModuleRoomReservation extends \Module
         
         $i = 0;
         while ($objModuleParams->next()) {
-            for ($i = 0; $i < $objModuleParams->maxcount; $i++) {
+            for ($i = 0; $i <= $objModuleParams->maxcount; $i++) {
                 $arrSelectOptions[$i] = array('value' => $i, 'label' => $i);
             }
             $objSelectMenu          = new FormSelectMenu();
