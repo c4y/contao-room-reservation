@@ -150,7 +150,7 @@ class ModuleRoomReservation extends \Module
             $intTotal           = 0;
 
             if ($this->Input->post('roomtype')) {
-                foreach ($this->Input->post('roomtype') as $intRoomtype) { 
+                foreach (array($this->Input->post('roomtype')) as $intRoomtype) { 
                     (intval($this->Input->post($intRoomtype)) < 1) ? $objWidgetCheckboxes->addError($GLOBALS['TL_LANG']['MSC']['countError']) : 
                         $arrResultRow = $this->Database->prepare("
                             SELECT count(*) as countAvailableNights, MIN(count) AS minCount, (SUM(price) * ?) AS total, roomtype AS type, mls
